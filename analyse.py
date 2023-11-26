@@ -13,8 +13,8 @@ def analyse(file_name, res_file):
                 with open(res_file, 'a') as file2:
                     file2.write('1\n')
             count += 1
-            if (count % 400 == 0):
-                sl(0.1)
+            if (count % 1000 == 0):
+                sl(0.001)
 
     file.close()
     file2.close()
